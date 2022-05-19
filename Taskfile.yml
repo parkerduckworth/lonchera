@@ -1,0 +1,27 @@
+version: '3'
+
+tasks:
+  start-weaviate: 
+    cmds:
+      - docker compose up -d
+
+  stop-weaviate: 
+    cmds: 
+      - docker compose stop
+
+  run-service: 
+    cmds:
+      - go mod tidy
+      - gofmt -w .
+      - go run main.go
+
+  launch:
+    cmds:
+      - task: stop-weaviate
+      - task: start-weaviate
+      - sleep 5
+      - task: run-service
+
+  import:
+    cmds:
+      - go run cmd/import/import.go

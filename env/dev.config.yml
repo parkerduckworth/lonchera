@@ -1,0 +1,12 @@
+server:
+  httpPort: 9000
+  readTimeout:  60000
+  writeTimeout: 60000
+logger:
+  level: TRACE
+  logPattern: "%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n"
+  fileNamePattern: "${LOGS}/%d{yyyy-MM-dd}.%i.log"
+  maxFileSize: "10MB"
+weaviate:
+  host: "weaviate:8080"
+  scheme: "http"
