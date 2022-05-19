@@ -9,7 +9,7 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/parkerduckworth/foodtruck-recommender/app/config"
+	"github.com/parkerduckworth/lonchera/app/config"
 	"github.com/sirupsen/logrus"
 )
 

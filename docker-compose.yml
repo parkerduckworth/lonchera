@@ -33,7 +33,7 @@ services:
     image: semitechnologies/qna-transformers:bert-large-uncased-whole-word-masking-finetuned-squad
 
   server:
-    image: parkerduckworth/foodtruck-recommender
+    image: parkerduckworth/lonchera
     build:
       dockerfile: Dockerfile
       context: .

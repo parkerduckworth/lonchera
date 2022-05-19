@@ -4,8 +4,8 @@ import (
 	"net/http"
 
 	"github.com/gin-gonic/gin"
-	"github.com/parkerduckworth/foodtruck-recommender/failure"
-	"github.com/parkerduckworth/foodtruck-recommender/recommender"
+	"github.com/parkerduckworth/lonchera/failure"
+	"github.com/parkerduckworth/lonchera/recommender"
 	"github.com/semi-technologies/weaviate-go-client/v4/weaviate/filters"
 )
 

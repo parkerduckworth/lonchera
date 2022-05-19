@@ -6,7 +6,7 @@
 package failure
 
 import (
-	"github.com/parkerduckworth/foodtruck-recommender/log"
+	"github.com/parkerduckworth/lonchera/log"
 )
 
 // Error is the generic error type passed amongst different packages

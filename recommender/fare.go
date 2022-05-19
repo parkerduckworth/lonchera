@@ -4,9 +4,9 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/parkerduckworth/foodtruck-recommender/app/config"
-	"github.com/parkerduckworth/foodtruck-recommender/failure"
-	"github.com/parkerduckworth/foodtruck-recommender/recommender/schema"
+	"github.com/parkerduckworth/lonchera/app/config"
+	"github.com/parkerduckworth/lonchera/failure"
+	"github.com/parkerduckworth/lonchera/recommender/schema"
 	"github.com/semi-technologies/weaviate-go-client/v4/weaviate"
 	"github.com/semi-technologies/weaviate-go-client/v4/weaviate/graphql"
 )

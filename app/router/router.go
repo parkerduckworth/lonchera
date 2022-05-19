@@ -9,7 +9,7 @@ import (
 	"net/http"
 
 	"github.com/gin-gonic/gin"
-	"github.com/parkerduckworth/foodtruck-recommender/app/router/foodtruck"
+	"github.com/parkerduckworth/lonchera/app/router/foodtruck"
 	"github.com/pkg/errors"
 	"github.com/semi-technologies/weaviate-go-client/v4/weaviate"
 )

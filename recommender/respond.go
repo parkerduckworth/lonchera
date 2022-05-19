@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/parkerduckworth/foodtruck-recommender/failure"
+	"github.com/parkerduckworth/lonchera/failure"
 	"github.com/semi-technologies/weaviate/entities/models"
 )
 

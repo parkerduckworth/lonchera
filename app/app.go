@@ -6,8 +6,8 @@ import (
 	"log"
 
 	"github.com/gin-gonic/gin"
-	"github.com/parkerduckworth/foodtruck-recommender/app/config"
-	"github.com/parkerduckworth/foodtruck-recommender/app/router"
+	"github.com/parkerduckworth/lonchera/app/config"
+	"github.com/parkerduckworth/lonchera/app/router"
 )
 
 // Run sets up all application dependencies
