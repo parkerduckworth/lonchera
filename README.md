@@ -9,6 +9,8 @@ Lonchera is a Golang service built around the [Weaviate Vector Search Engine](ht
 1. Recommend vendors based on free-form questions related to which food item is desired
 2. Fetch a list of vendors within a specified radius
 
+https://user-images.githubusercontent.com/31421773/169399883-d9e8c720-2500-4927-80cb-70f5a3e9a1df.mov
+
 ## Usage
 
 ### Starting/Stopping the Service
